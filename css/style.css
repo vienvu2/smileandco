@@ -173,7 +173,7 @@ header button {
 #our-expertise .banner {
     height: 600px;
     text-align: center;
-    background-image: url(/img/exp-1.webp), url(/img/exp-2.webp);
+    background-image: url(./../img/exp-1.webp), url(./../img/exp-2.webp);
     background-position: left center, right center;
     background-repeat: no-repeat;
 }
