@@ -26,8 +26,19 @@ $(function () {
     }
   });
   $(document).on("click", ".menu a", function () {
-    console.log('21321')
     $(".menu-bar").removeClass("active");
     $(".menu").removeClass("active");
+  });
+
+  $(".scroll-to").click(function (e) {
+    console.log(e);
+    var target = $(this).data("target");
+    console.log(target);
+    $("html, body").animate(
+      {
+        scrollTop: $("#" + target).offset().top - (window.innerWidth < 765 ? 70:  130),
+      },
+      800
+    );
   });
 });
