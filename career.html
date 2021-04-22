@@ -11,36 +11,40 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link ref="icon" href="/img/logo.webp" />
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
     <header>
         <div class="header">
-            <div class="logo">
+            <div class="logo" data-aos="fade-down" data-aos-delay="0">
                 <img src="img/logo.webp" />
             </div>
-            <div class="menu">
+            <div class="menu" data-aos="fade-down" data-aos-delay="300">
                 <a href="/#about-us">About us</a>
                 <a href="/#our-expertise">Our Expertise</a>
                 <a href="/#our-team">Our Team</a>
-                <a class="active" href="/career.html">Career</a>
+                <a href="/career.html">Career</a>
                 <a href="/#contact-us">Contact Us</a>
             </div>
-            <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary">Online
-                Booking</button>
+            <button data-aos="fade-down" data-aos-delay="500" type="button" data-toggle="modal"
+                data-target="#exampleModal" class="btn btn-primary">
+                Online Booking
+            </button>
         </div>
 
     </header>
-    <section id="dentistry">
+    <section id="dentistry"  data-aos="fade-up" >
         <h3> Careers</h3>
         <div class="line-big"></div>
         <p class="text-center">An inspiring and rewarding career awaits. <br />
             Join our rapidly growing team to deliver excellent patient outcomes in aesthetic dentistry.</p>
     </section>
     <section id="career" class="container" style="width: 992px ;">
-        <img src="img/carrer.webp" width="100%" />
+        <img src="img/carrer.webp" width="100%"    data-aos="fade-up" />
         <div class="question">
-            <a class="btn btn-primary collapsed" data-toggle="collapse" href="#multiCollapseExample1" role="button"
+            <a   data-aos="fade-up" class="btn btn-primary collapsed" data-toggle="collapse" href="#multiCollapseExample1" role="button"
                 aria-expanded="false" aria-controls="multiCollapseExample1">
                 <div class="plus"></div>
 
@@ -83,7 +87,7 @@
 
 
 
-            <a class="btn btn-primary collapsed" data-toggle="collapse" href="#multiCollapseExample2" role="button"
+            <a   data-aos="fade-up" class="btn btn-primary collapsed" data-toggle="collapse" href="#multiCollapseExample2" role="button"
                 aria-expanded="false" aria-controls="multiCollapseExample2">
                 <div class="plus"></div>
                 Toggle first element
@@ -123,7 +127,7 @@
                 </div>
             </div>
 
-            <a class="btn btn-primary collapsed" data-toggle="collapse" href="#multiCollapseExample3" role="button"
+            <a   data-aos="fade-up" class="btn btn-primary collapsed" data-toggle="collapse" href="#multiCollapseExample3" role="button"
                 aria-expanded="false" aria-controls="multiCollapseExample3">
                 <div class="plus"></div>
 
@@ -164,7 +168,7 @@
                 </div>
             </div>
 
-            <a class="btn btn-primary collapsed" data-toggle="collapse" href="#multiCollapseExample4" role="button"
+            <a   data-aos="fade-up" class="btn btn-primary collapsed" data-toggle="collapse" href="#multiCollapseExample4" role="button"
                 aria-expanded="false" aria-controls="multiCollapseExample4">
                 <div class="plus"></div>
                 Toggle first element
@@ -296,5 +300,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 </script>
+<script src="/main.js"></script>
 
 </html>

@@ -11,23 +11,28 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link ref="icon" href="/img/logo.webp" />
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 <body>
     <header>
         <div class="header">
-            <div class="logo">
+            <div class="logo" data-aos="fade-down" data-aos-delay="0">
                 <img src="img/logo.webp" />
             </div>
-            <div class="menu">
+            <div class="menu" data-aos="fade-down" data-aos-delay="300">
                 <a href="/#about-us">About us</a>
                 <a href="/#our-expertise">Our Expertise</a>
                 <a href="/#our-team">Our Team</a>
-                <a href="/career.html">Career</a>
+                <a class="active" href="/career.html">Career</a>
                 <a href="/#contact-us">Contact Us</a>
             </div>
-            <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary">Online
-                Booking</button>
+            <button data-aos="fade-down" data-aos-delay="500" type="button" data-toggle="modal"
+                data-target="#exampleModal" class="btn btn-primary">
+                Online Booking
+            </button>
         </div>
 
     </header>
@@ -67,19 +72,20 @@
             </a>
         </div>
     </section>
-    <section id="dentistry">
+    <section id="dentistry" data-aos="fade-up">
+
         <h3> BESPOKE DENTISTRY</h3>
         <div class="line-big"></div>
-        <p class="text-center">We are a boutique, bespoke dental practice based in Damansara Heights, <br />
-            Malaysia, where we offer customised
-            smile design and aesthetic dental solutions <br /> using the latest technology.</p>
+        <p class="text-center" </p>We are a boutique, bespoke dental practice based in Damansara Heights, <br />
+        Malaysia, where we offer customised
+        smile design and aesthetic dental solutions <br /> using the latest technology.</p>
     </section>
     <section id="about-us" class="container-fluid">
         <div class="row">
             <div class="col-md-7">
                 <img src="img/about-us.webp" width="100%" />
             </div>
-            <div class="col-md-5 content">
+            <div class="col-md-5 content" data-aos="fade-up">
                 <h3> ABOUT US</h3>
                 <div class="line"></div>
                 <br />
@@ -102,8 +108,11 @@
 
     </section>
     <section id="our-expertise">
-        <h3>OUR EXPERTISE</h3>
-        <div class="line"></div>
+        <div data-aos="fade-up">
+            <h3>OUR EXPERTISE</h3>
+            <div class="line"></div>
+        </div>
+
         <br />
         <br />
 
@@ -121,42 +130,42 @@
         <div class="container" style="width: 1300px; max-width: 100%;">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="face">
+                    <div class="face" data-aos="fade-up" data-aos-delay="100">
                         <img src="img/face.webp" />
                         <h5>Smile Makeover / Enhancement</h5>
                         <p>Composite and Porcelain Veneers, Teeth Whitening</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="face">
+                    <div class="face" data-aos="fade-up" data-aos-delay="200">
                         <img src="img/face.webp" />
                         <h5>Smile Makeover / Enhancement</h5>
                         <p>Composite and Porcelain Veneers, Teeth Whitening</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="face">
+                    <div class="face" data-aos="fade-up" data-aos-delay="300">
                         <img src="img/face.webp" />
                         <h5>Smile Makeover / Enhancement</h5>
                         <p>Composite and Porcelain Veneers, Teeth Whitening</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="face">
+                    <div class="face" data-aos="fade-up" data-aos-delay="400">
                         <img src="img/face.webp" />
                         <h5>Smile Makeover / Enhancement</h5>
                         <p>Composite and Porcelain Veneers, Teeth Whitening</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="face">
+                    <div class="face" data-aos="fade-up" data-aos-delay="500">
                         <img src="img/face.webp" />
                         <h5>Smile Makeover / Enhancement</h5>
                         <p>Composite and Porcelain Veneers, Teeth Whitening</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="face">
+                    <div class="face" data-aos="fade-up" data-aos-delay="600">
                         <img src="img/face.webp" />
                         <h5>Smile Makeover / Enhancement</h5>
                         <p>Composite and Porcelain Veneers, Teeth Whitening</p>
@@ -168,8 +177,11 @@
 
     </section>
     <section id="our-team">
-        <h3>OUR TEAM</h3>
-        <div class="line"></div>
+        <div data-aos="fade-up">
+            <h3>OUR TEAM</h3>
+            <div class="line"></div>
+        </div>
+
         <br />
         <br />
 
@@ -180,10 +192,10 @@
                 </div>
                 <div class="col-md-7 content">
                     <a href="/our-team.html">
-                        <h2>Dr. Yin Shi Hoo</h2>
+                        <h2 data-aos="fade-up" data-aos-delay="100">Dr. Yin Shi Hoo</h2>
                     </a>
 
-                    <p>DDS (Gold Medalist) UKM,<br />
+                    <p data-aos="fade-up" data-aos-delay="200">DDS (Gold Medalist) UKM,<br />
                         MFD RCS (Edin),<br />
                         Fellow of the International College of Continuing Dental Education (ICCDE)<br />
                         Certified Invisalign Provider,<br />
@@ -191,16 +203,17 @@
                         Certificate in World Clinical Laser Institute,<br />
                         Member of ITI,<br />
                         Member of Malaysian Dental Association</p>
-                    <button class="btn btn-primary">Learn More</button>
+                    <a href="/our-team.html" data-aos="fade-up" data-aos-delay="300" class="btn btn-primary">Learn
+                        More</a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <div class="row content2">
                         <div class="col-6 text-right">
-                            <img src="img/team1.webp" />
+                            <img src="img/team1.webp" data-aos="fade-up" data-aos-delay="100" />
                         </div>
-                        <div class="col-6">
+                        <div class="col-6" data-aos="fade-up" data-aos-delay="200">
                             <a href="/our-team.html">
                                 <h5>
                                     Dr. Jaswinder <br />
@@ -220,10 +233,10 @@
                 </div>
                 <div class="col-md-6">
                     <div class="row content2">
-                        <div class="col-6   text-right">
+                        <div class="col-6 text-right" data-aos="fade-up" data-aos-delay="300">
                             <img src="img/team1.webp" />
                         </div>
-                        <div class="col-6">
+                        <div class="col-6" data-aos="fade-up" data-aos-delay="400">
                             <a href="/our-team.html">
 
                                 <h5>Dr. Melisa<br />
@@ -245,35 +258,35 @@
         <div class="container" style="width: 924px; max-width: 100%;">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="face">
+                    <div class="face" data-aos="fade-up" data-aos-delay="100">
                         <img src="img/face.webp" />
                         <h5>YY Chak</h5>
                         <p>Dental Clinic Manager</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="face">
+                    <div class="face" data-aos="fade-up" data-aos-delay="200">
                         <img src="img/face.webp" />
                         <h5>YY Chak</h5>
                         <p>Dental Clinic Manager</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="face">
+                    <div class="face" data-aos="fade-up" data-aos-delay="300">
                         <img src="img/face.webp" />
                         <h5>YY Chak</h5>
                         <p>Dental Clinic Manager</p>
                     </div>
                 </div>
                 <div class="col-md-4 offset-md-2">
-                    <div class="face">
+                    <div class="face" data-aos="fade-up" data-aos-delay="400">
                         <img src="img/face.webp" />
                         <h5>YY Chak</h5>
                         <p>Dental Clinic Manager</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="face">
+                    <div class="face" data-aos="fade-up" data-aos-delay="500">
                         <img src="img/face.webp" />
                         <h5>YY Chak</h5>
                         <p>Dental Clinic Manager</p>
@@ -286,7 +299,7 @@
     <section id="contact-us">
         <div class="container" style="width: 1300px; max-width: 100%;">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up">
                     <br />
                     <h3> CONTACT US</h3>
                     <div class="line"></div>
@@ -303,30 +316,30 @@
                     <p><img src="/img/clock.svg" />Closed on Sundays & Public Holidays</p>
 
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <form class="makenew">
                         <h3> MAKE YOUR APPOINTMENT</h3>
                         <div class="line"></div>
                         <br />
                         <br />
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
                                 <label>First Name</label>
                                 <input required class="form-control" />
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                                 <label>Last Name</label>
                                 <input required class="form-control" />
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                                 <label>Email</label>
                                 <input required class="form-control" />
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                                 <label>Phone Number</label>
                                 <input required class="form-control" />
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                                 <label>What kind of treatment would you like to inquire?</label>
                                 <!-- <input class="form-control" /> -->
                                 <select required class="form-control">
@@ -337,11 +350,11 @@
                                     <option>Choose a treatment of your choice</option>
                                 </select>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
                                 <label>Choose your desired date</label>
                                 <input required type="date" class="form-control" />
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="700">
                                 <label>Choose your desired time</label>
                                 <select required class="form-control">
                                     <option>Choose a treatment of your choice</option>
@@ -351,12 +364,12 @@
                                     <option>Choose a treatment of your choice</option>
                                 </select>
                             </div>
-                            <div class="col-md-12">
-                                <label>Tell me more about your concerns</label>
+                            <div class="col-md-12" data-aos="fade-up" data-aos-delay="800" <label>Tell me more about
+                                your concerns</label>
                                 <input class="form-control" />
                             </div>
                         </div>
-                        <div class="text-right mt-3">
+                        <div class="text-right mt-3" data-aos="fade-up" data-aos-delay="1000">
                             <button class="btn btn-primary">
                                 Submit
                             </button>
@@ -368,15 +381,18 @@
 
     </section>
     <section id="our-partners">
-        <h3>OUR PARTNERS</h3>
-        <div class="line"></div>
+        <div data-aos="fade-up" data-aos-delay="200">
+            <h3>OUR PARTNERS</h3>
+            <div class="line"></div>
+        </div>
+
         <div class="partners">
-            <img src="img/pn1.webp" />
-            <img src="img/pn1.webp" />
-            <img src="img/pn2.webp" />
-            <img src="img/pn3.webp" />
-            <img src="img/pn4.webp" />
-            <img src="img/pn5.webp" />
+            <img data-aos="fade-up" data-aos-delay="100" src="img/pn1.webp" />
+            <img data-aos="fade-up" data-aos-delay="200" src="img/pn1.webp" />
+            <img data-aos="fade-up" data-aos-delay="300" src="img/pn2.webp" />
+            <img data-aos="fade-up" data-aos-delay="400" src="img/pn3.webp" />
+            <img data-aos="fade-up" data-aos-delay="500" src="img/pn4.webp" />
+            <img data-aos="fade-up" data-aos-delay="600" src="img/pn5.webp" />
         </div>
     </section>
     <footer>
@@ -394,23 +410,23 @@
                     <br />
                     <br />
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
                             <label>First Name</label>
                             <input required class="form-control" />
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                             <label>Last Name</label>
                             <input required class="form-control" />
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                             <label>Email</label>
                             <input required class="form-control" />
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                             <label>Phone Number</label>
                             <input required class="form-control" />
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                             <label>What kind of treatment would you like to inquire?</label>
                             <!-- <input class="form-control" /> -->
                             <select required class="form-control">
@@ -421,11 +437,11 @@
                                 <option>Choose a treatment of your choice</option>
                             </select>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
                             <label>Choose your desired date</label>
                             <input required type="date" class="form-control" />
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="700">
                             <label>Choose your desired time</label>
                             <select required class="form-control">
                                 <option>Choose a treatment of your choice</option>
@@ -435,12 +451,12 @@
                                 <option>Choose a treatment of your choice</option>
                             </select>
                         </div>
-                        <div class="col-md-12">
-                            <label>Tell me more about your concerns</label>
+                        <div class="col-md-12" data-aos="fade-up" data-aos-delay="800" <label>Tell me more about your
+                            concerns</label>
                             <input class="form-control" />
                         </div>
                     </div>
-                    <div class="text-right mt-3">
+                    <div class="text-right mt-3" data-aos="fade-up" data-aos-delay="1000">
                         <button class="btn btn-primary">
                             Submit
                         </button>
@@ -460,5 +476,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 </script>
+
+<script src="/main.js"></script>
 
 </html>
