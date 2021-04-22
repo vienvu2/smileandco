@@ -1,26 +1,26 @@
 @font-face {
     font-family: Font;
-    src: url(/fonts/file.woff2);
+    src: url(./../fonts/file.woff2);
 }
 
 @font-face {
     font-family: Font1;
-    src: url(/fonts/file-1.woff2);
+    src: url(./../fonts/file-1.woff2);
 }
 
 @font-face {
     font-family: Font2;
-    src: url(/fonts/file-2.woff2);
+    src: url(./../fonts/file-2.woff2);
 }
 
 @font-face {
     font-family: Font3;
-    src: url(/fonts/file-3.woff2);
+    src: url(./../fonts/file-3.woff2);
 }
 
 @font-face {
     font-family: Font4;
-    src: url(/fonts/file-4.woff);
+    src: url(./../fonts/file-4.woff);
 }
 
 
