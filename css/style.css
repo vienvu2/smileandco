@@ -18,6 +18,12 @@
     src: url(/fonts/file-3.woff2);
 }
 
+@font-face {
+    font-family: Font4;
+    src: url(/fonts/file-4.woff);
+}
+
+
 a {
     cursor: pointer;
 }
@@ -71,8 +77,11 @@ header .menu a {
     font-size: 14px;
     flex: 1;
     display: inline-block;
-    font-family: Font3;
+    font-family: Font4;
     text-align: center;
+}
+header .menu a.active{
+    color: rgb(212, 177, 140);
 }
 
 header button {
@@ -447,6 +456,7 @@ footer a {
     border: 1px solid white;
     margin: 4px;
 }
+
 #career .question a:active,
 #career .question a {
     display: block;
@@ -466,11 +476,11 @@ footer a {
     box-shadow: none;
 }
 
-#career .question .content{
+#career .question .content {
     padding: 20px;
 }
 
-#career .question h4{
+#career .question h4 {
     font-family: Font2;
     color: rgb(41, 41, 41);
     font-size: 20px;
@@ -478,15 +488,18 @@ footer a {
     letter-spacing: 1px;
 
 }
-#career .question ul{
+
+#career .question ul {
     margin-bottom: 30px;
 }
-#career .question li{
+
+#career .question li {
     color: rgb(0, 0, 0);
     font-size: 13px;
     line-height: 27px;
     letter-spacing: 1.95px;
 }
+
 .career-foot {
     color: rgb(0, 0, 0);
     font-size: 14px;
@@ -499,12 +512,13 @@ footer a {
     margin-top: 300px;
     margin-bottom: 50px;
 }
-.career-foot a{
+
+.career-foot a {
     color: #935a4b;
-    
+
 }
 
-.plus{
+.plus {
     display: inline-block;
     height: 5px;
     width: 25px;
@@ -515,7 +529,8 @@ footer a {
     position: relative;
     top: -5px;
 }
-.plus::after{
+
+.plus::after {
     content: none;
     position: absolute;
 
@@ -526,6 +541,95 @@ footer a {
     left: 10px;
 
 }
-.collapsed .plus::after{
+
+.collapsed .plus::after {
     content: '';
+}
+
+#meet-team {
+    width: 980px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+#meet-team .leader {
+    text-align: center;
+}
+
+#meet-team .leader img {
+    width: 250px;
+    height: 250px;
+    border-radius: 175px;
+}
+
+#meet-team .leader h3 {
+    color: rgb(51, 51, 51);
+    font-size: 38px;
+    letter-spacing: 1.14px;
+    line-height: 41.8px;
+    font-family: Font3;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#meet-team .leader p {
+    color: rgb(150, 150, 150);
+    font-size: 16px;
+    font-family: Font3;
+    font-style: italic;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+}
+
+#meet-team .des {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#meet-team .des p {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-family: Font4;
+}
+
+#meet-team .member {
+    padding: 50px 0;
+    padding-left: 250px;
+    position: relative;
+}
+
+#meet-team .member img {
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    border-radius: 110px;
+    left: 0;
+}
+
+#meet-team .member h3 {
+    color: rgb(51, 51, 51);
+    line-height: 38.5px;
+    letter-spacing: 1.05px;
+    font-size: 35px;
+    font-family: Font3;
+}
+
+#meet-team .member h5 {
+    color: rgb(150, 150, 150);
+    font-size: 16px;
+    font-family: Font3;
+    font-style: italic;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+}
+
+#meet-team .member p {
+    color: rgb(0, 0, 0);
+    font-family: Font4;
+    font-size: 17px;
+    line-height: normal;
 }
