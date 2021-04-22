@@ -17,7 +17,17 @@ $(function () {
   });
 
   $(".menu-bar").click(function () {
-    $(".menu-bar").toggleClass("active");
-    $(".menu").toggleClass("active");
+    if ($(".menu").hasClass("active")) {
+      $(".menu-bar").removeClass("active");
+      $(".menu").removeClass("active");
+    } else {
+      $(".menu-bar").addClass("active");
+      $(".menu").addClass("active");
+    }
+  });
+  $(document).on("click", ".menu a", function () {
+    console.log('21321')
+    $(".menu-bar").removeClass("active");
+    $(".menu").removeClass("active");
   });
 });

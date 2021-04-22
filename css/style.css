@@ -723,7 +723,7 @@ footer a {
         z-index: 116;
         top: 0;
         right: -100vw;
-        transition: all 0.4s ease-in-out;
+        transition: all 0.2s ease-in-out;
         padding: 20px;
         flex-direction: column;
         justify-content: center;
