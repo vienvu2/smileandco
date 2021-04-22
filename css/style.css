@@ -18,6 +18,9 @@
     src: url(/fonts/file-3.woff2);
 }
 
+a{
+    cursor: pointer;
+}
 *,
 a,
 p {
@@ -358,6 +361,40 @@ header .menu button {
     padding-right: 30px;
 }
 
+#contact-us h4 {
+    color: rgb(41, 41, 41);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: Font2;
+    margin-bottom: 27px;
+    margin-top: 27px;
+}
+
+#contact-us a {
+    text-decoration: underline;
+    display: block;
+    width: 70%;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+#contact-us p img,
+#contact-us a img {
+    position: absolute;
+    height: 20px;
+    margin-left: -30px;
+}
+#contact-us a img svg{
+    fill: #935a4b;
+}
+#contact-us p {
+    padding-left: 30px;
+    display: block;
+    width: 70%;
+    font-size: 16px;
+}
+
 #our-partners {
     padding: 50px 0;
 }
@@ -368,6 +405,14 @@ header .menu button {
     letter-spacing: 1.6px;
     font-family: Font;
     text-align: center;
+}
+
+#our-partners .partners {
+    text-align: center;
+}
+
+#our-partners .partners img {
+    margin: 10px;
 }
 
 footer {
