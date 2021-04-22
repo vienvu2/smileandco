@@ -18,9 +18,10 @@
     src: url(/fonts/file-3.woff2);
 }
 
-a{
+a {
     cursor: pointer;
 }
+
 *,
 a,
 p {
@@ -70,12 +71,12 @@ header .menu a {
     font-size: 14px;
     flex: 1;
     display: inline-block;
-    font-family: Font1;
+    font-family: Font3;
     text-align: center;
 }
 
-header .menu button {
-    margin-left: 100px;
+header button {
+    margin-left: 20px;
 }
 
 .btn.btn-primary {
@@ -148,11 +149,11 @@ header .menu button {
     margin-bottom: 30px;
 }
 
-#out-expertise {
+#our-expertise {
     padding-top: 70px;
 }
 
-#out-expertise h3 {
+#our-expertise h3 {
     color: rgb(147, 90, 75);
     font-size: 16px;
     letter-spacing: 1.6px;
@@ -160,7 +161,7 @@ header .menu button {
     text-align: center;
 }
 
-#out-expertise .banner {
+#our-expertise .banner {
     height: 600px;
     text-align: center;
     background-image: url(/img/exp-1.webp), url(/img/exp-2.webp);
@@ -168,7 +169,7 @@ header .menu button {
     background-repeat: no-repeat;
 }
 
-#out-expertise .banner h4 {
+#our-expertise .banner h4 {
     margin-top: 211px;
     font-size: 30px;
     font-family: Font2;
@@ -178,26 +179,26 @@ header .menu button {
     color: #935a4b;
 }
 
-#out-expertise .banner .btn.btn-primary {
+#our-expertise .banner .btn.btn-primary {
     height: 40px;
     padding-left: 30px;
     padding-right: 30px;
 }
 
-#out-expertise .face {
+#our-expertise .face {
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
-#out-expertise .face img {
+#our-expertise .face img {
     height: 250px;
     border-radius: 125px;
     width: 250px;
     margin-bottom: 32px;
 }
 
-#out-expertise .face h5 {
+#our-expertise .face h5 {
     font-size: 24px;
     font-family: Font2;
     color: rgb(40, 43, 52);
@@ -208,7 +209,7 @@ header .menu button {
     margin-right: auto;
 }
 
-#out-expertise .face p {
+#our-expertise .face p {
     font-size: 14px;
     margin-bottom: 50px;
     width: 190px;
@@ -327,6 +328,7 @@ header .menu button {
     padding: 30px 0;
 }
 
+form.makenew h3,
 #contact-us h3 {
     color: rgb(147, 90, 75);
     font-size: 16px;
@@ -335,27 +337,27 @@ header .menu button {
     text-align: center;
 }
 
-#contact-us form {
+form.makenew {
     background: white;
     padding: 20px 40px;
 }
 
-#contact-us form label {
+form.makenew label {
     color: rgb(150, 150, 150);
     font-size: 14px;
     margin-top: 15px;
 }
 
-#contact-us form select,
-#contact-us form input {
+form.makenew select,
+form.makenew input {
     border: 0;
     border-bottom: 1px solid rgb(150, 150, 150);
     font-size: 14px;
     border-radius: 0;
-    appearance: none;
+    /* appearance: none; */
 }
 
-#contact-us form .btn.btn-primary {
+form.makenew .btn.btn-primary {
     height: 40px;
     padding-left: 30px;
     padding-right: 30px;
@@ -367,7 +369,7 @@ header .menu button {
     letter-spacing: 1px;
     font-family: Font2;
     margin-bottom: 27px;
-    margin-top: 27px;
+    margin-top: 37px;
 }
 
 #contact-us a {
@@ -385,9 +387,11 @@ header .menu button {
     height: 20px;
     margin-left: -30px;
 }
-#contact-us a img svg{
+
+#contact-us a img svg {
     fill: #935a4b;
 }
+
 #contact-us p {
     padding-left: 30px;
     display: block;
@@ -426,4 +430,102 @@ footer a {
     font-size: 14px;
     font-family: Font3;
     color: white !important;
+}
+
+#slider .carousel-indicators li {
+    height: 5px;
+    width: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#slider .carousel-indicators li.active {
+    height: 7px;
+    width: 7px;
+    border-radius: 4px;
+    background: transparent;
+    border: 1px solid white;
+    margin: 4px;
+}
+#career .question a:active,
+#career .question a {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    height: 53px;
+    color: #fff5;
+    font-size: 20px;
+    font-family: Font2;
+    line-height: 43px;
+    text-align: left;
+    background-color: #935a4b;
+}
+
+#career .question a:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+#career .question .content{
+    padding: 20px;
+}
+
+#career .question h4{
+    font-family: Font2;
+    color: rgb(41, 41, 41);
+    font-size: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+
+}
+#career .question ul{
+    margin-bottom: 30px;
+}
+#career .question li{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    line-height: 27px;
+    letter-spacing: 1.95px;
+}
+.career-foot {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1.12px;
+    width: 992px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+}
+.career-foot a{
+    color: #935a4b;
+    
+}
+
+.plus{
+    display: inline-block;
+    height: 5px;
+    width: 25px;
+    background: white;
+    opacity: 0.4;
+    margin-right: 5px;
+    margin-left: 10px;
+    position: relative;
+    top: -5px;
+}
+.plus::after{
+    content: none;
+    position: absolute;
+
+    height: 25px;
+    width: 5px;
+    background: white;
+    top: -10px;
+    left: 10px;
+
+}
+.collapsed .plus::after{
+    content: '';
 }
